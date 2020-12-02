@@ -1,6 +1,14 @@
 # 🌱 Descrição do projeto 
 - Api para converter de celsius para fahrenheit e fahrenheit para celsius
 
+## Clonando o projeto 
+
+    $ git clone git@github.com:leoviana00/api-conversao-nodejs.git
+
+## Rodando o app
+
+    $ node index.js
+
 ## Testanto o programa
 
     - http://localhost:8080/celsius/0/fahrenheit
@@ -28,19 +36,19 @@ CMD ["node", "index.js"]
 ```
 ## Build
 
-    - $ docker build -t leoviana00/api-conversao:v1 .
+    $ docker build -t leoviana00/api-conversao:v1 .
 
 ## Push
 
-    - $ docker push leoviana00/api-conversao:v1
+    $ docker push leoviana00/api-conversao:v1
 
 ## Pull
 
-    - $ docker pull leoviana00/api-conversao:v1
+    $ docker pull leoviana00/api-conversao:v1
 
 ## Run
 
-    - $ docker container run -d -p 8080:8080 leoviana00/api-conversao:v1
+    $ docker container run -d -p 8080:8080 leoviana00/api-conversao:v1
   
 
 ## Docker Hub
